@@ -1,0 +1,35 @@
+
+
+
+.careerusflex{
+    height: 50vh;
+    text-align: center;
+    background-color: rgb(211, 208, 208);
+    color: black;
+    font-family: 'Roboto', sans-serif; 
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+}
+.careeruscon{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.careerusheader{
+    font-family: 'Roboto', sans-serif; 
+    padding-bottom: 20px;
+}
+
+.careerustext{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.careerapp{
+    padding-top: 20px;
+}

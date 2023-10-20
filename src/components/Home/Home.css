@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.topnavbar{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bigtop{
+    font-weight: 700;
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.smalltop{
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.parallax-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    /*  this is where the magic happens:  */
+    background-attachment: fixed;
+  
+    background-image: url(https://images.pexels.com/photos/39603/space-shuttle-liftoff-atlantis-rocket-39603.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-position: center;
+    background-size: cover;
+    
+    
+    row-gap: 4rem;
+    text-align: center;
+  }
+
+  .buffer {
+    width: 100%;
+    min-height: 60vh;
+    background-color: rgb(211, 208, 208);
+    text-align: center;
+  }
+  
+
+  .parallax-container2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    padding: 6rem 0;
+    background-image: url(https://images.pexels.com/photos/796206/pexels-photo-796206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    gap: 1.6em;
+  }
+
+
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.bottomlinks{
+    color: white;
+    text-decoration: none;
+}
+
+.bottomlinks:hover{
+    text-decoration: underline;
+    color: pink;
+}
