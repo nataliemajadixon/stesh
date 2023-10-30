@@ -4,21 +4,27 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../Home/Home.css'
 const Navbars = () => {
+
+    // const navEl = document.querySelector('.navbar');
+
+    // window.addEventListener('scroll', () => {
+    //     if (window.scrollY >= 56) {
+    //         navEl.classList.add('navbar-scrolled')
+    //     }
+    // })
+
     return (
         <>
-        <Navbar className='topnavbar' expand="lg" sticky="top" style={{backgroundColor: '#f50707', color: 'white'}} >
+        <Navbar bg="dark" data-bs-theme="dark" className='navbar topnavbar navbar-scrolled' expand="lg" sticky="top" >
             <Container fluid>
-                <Navbar.Brand href="/"> Stesh
-                </Navbar.Brand>
+                <Navbar.Brand href="/" className="m-auto" style={{fontSize: '30px', paddingLeft: "30px"}}> Stesh</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="ms-auto navigation">
-                                <Nav.Link href="/services" className="px-3" >Services</Nav.Link>
-                                <Nav.Link href="/career" className="px-3">Career</Nav.Link>
-                                <Nav.Link href="/contact" className="px-3">Contact</Nav.Link>
-                                <Nav.Link href="/about" className="px-3">About Us</Nav.Link>
-
-            
+                                <Nav.Link href="/services" className="px-3" >Tjänster</Nav.Link>
+                                <Nav.Link href="/career" className="px-3">Karriär</Nav.Link>
+                                <Nav.Link href="/contact" className="px-3">Kontakt</Nav.Link>
+                                <Nav.Link href="/about" className="px-3">Om Oss</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                 </Container>

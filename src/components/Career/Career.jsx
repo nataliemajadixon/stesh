@@ -1,13 +1,13 @@
-import './Career.css'
+import '../Home/Home.css'
 
 const Career = () => {
     return(
         <>
-        <div className="careerusflex">
+        <div className="top-container career-container">
             <div className="careeruscon">
-                <div className="careerusheader">BECOME ONE OF US</div>
-                    <div className="careerustext">Does this feel like a workplace where you would contribute something new, thrive and develop? If so, apply to one of our vacant positions!
-                    <div className="careerapp">Send your application towork@stesh.se </div>
+                <div className="careerusheader">BLI EN AV OSS</div>
+                    <div className="careerustext">Känns det här som en arbetsplats där du skulle bidra med något nytt, trivas och utvecklas? I så fall, ansök till en av våra lediga tjänster!
+                    <div className="careerapp">Skicka din ansökan till work@stesh.se </div>
                     </div>
             </div>
         </div>
