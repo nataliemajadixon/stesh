@@ -170,11 +170,18 @@ align-items: center;
 height: 60vh; */
 
 .middle-end-container {
-    background: linear-gradient(to bottom, #570000c9,#343a40);
+    background: linear-gradient(to bottom, #0b31efc9,#343a40);
     text-align: center;
 
 }
 
+.services-headtext {
+  color: white;
+}
+.career-toptext {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .middle-end-header{
     color: white;
     font-size: 2rem;
@@ -461,7 +468,7 @@ height: 60vh; */
     color: rgb(226, 218, 218);
     padding-top: 40px;
     padding-bottom: 60px;
-    height: 30vh;
+    height: 45vh;
  
 }
 .bottomlinks{
