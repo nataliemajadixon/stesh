@@ -15,9 +15,9 @@ const Navbars = () => {
 
     return (
         <>
-        <Navbar bg="dark" data-bs-theme="dark" className='navbar topnavbar navbar-scrolled' expand="lg" sticky="top" >
+        <Navbar bg="light" data-bs-theme="light" className='navbar topnavbar navbar-scrolled' expand="lg" sticky="top" >
             <Container fluid>
-                <Navbar.Brand href="/" className="m-auto" style={{fontSize: '30px', paddingLeft: "30px"}}> Stesh</Navbar.Brand>
+                <Navbar.Brand href="/" className="m-auto" style={{fontSize: '30px', paddingLeft: "30px"}}> <img src={require('../../assets/STESH.png')} alt='businesslogo' style={{height: '60px', paddingLeft: '40px'}}/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="ms-auto navigation">
