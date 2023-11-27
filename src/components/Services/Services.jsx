@@ -4,7 +4,10 @@ const Services = () => {
     return(
         <>
     <section className='middle-end-container services-container'>
-        <div className='middle-end-header service-header'>Tjänster</div>
+      <div className='career-toptext'>
+        <div className='middle-end-header service-header'>Karriär</div>
+        <div className='services-headtext'>At Stesh, we believe in the power of exceptional talent to drive success. As a dynamic and innovative consulting firm, we are committed to building a team of dedicated professionals who share our passion for solving complex challenges and making a meaningful impact. Want to join us? Send us an email!</div>
+        </div>
         <div className="card-container">
         <div class="card">
         <div class="card-img card-one"></div>
@@ -31,6 +34,7 @@ const Services = () => {
       </div>
       </div>
     </section>
+    <div> send in your sponanious ansok cv. mail your resume </div>
 
         </>
     )

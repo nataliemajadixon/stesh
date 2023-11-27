@@ -234,19 +234,22 @@ height: 60vh; */
 }
 .card-img {
     background-color: #ccc; /* Card image styles */
-    width: 100px;
-    height: 100px;
+    width: 10px;
+    height: 250px;
     margin: 0 auto;
+ 
 }
 .card-one {
     background-image: url('https://images.pexels.com/photos/4960396/pexels-photo-4960396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   background-size: cover; /* Adjust the background size to fit your card */
-  background-position: center; 
+  background-position: center;
+ 
 }
 .card-two {
     background-image:url('https://images.pexels.com/photos/2760241/pexels-photo-2760241.jpeg?auto=compress&cs=tinysrgb&w=400');
     background-size: cover; /* Adjust the background size to fit your card */
     background-position: center; 
+ 
 }
   
 .card-three {
@@ -430,6 +433,80 @@ height: 60vh; */
     justify-content: left; 
     padding-left: 20px;/* Center content on smaller screens */
 }
+}
+
+.kareer-background {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.kareer-background img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 60%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and transparency as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.kareerusheader {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #fff; /* Adjust text color as needed */
+  font-weight: 500;
+}
+
+.kareerustext {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #fff; /* Adjust text color as needed */
+}
+
+.kareerapp {
+  font-size: 1.2em;
+  color: #fff; /* Adjust text color as needed */
+}
+
+.kareer-middle-text{
+  background-color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: black;
+  font-size: 20px;
+}
+
+.kareer-bottom-text{
+  background-color: #3e68f2;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: white;
+}
+
+.show-vacancies-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.kareermiddle-header {
+  font-size: 40px;
 }
 
 /* getintouch */

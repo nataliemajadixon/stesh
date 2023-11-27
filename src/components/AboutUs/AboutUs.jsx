@@ -28,7 +28,6 @@ const About = () => {
             </div>
              </div>
                 </div>
-        <div>Skld</div>
         <div><img src={require('../../assets/careerbubbles.jpg')} alt='vrheadset' style={{ filter: 'brightness(70%)', width: '100vw', height: '40vh', objectFit: 'cover' }}/>  
         </div>
       {/* <div className="top-container career-container">
