@@ -104,6 +104,8 @@
     margin: 20vh 1rem;
     padding-left: 30px;
     padding-right: 20px;
+    /* max-width: 75%;  */
+    /* margin: 0 auto;  */
     position: relative; /* Add this line */
     z-index: 1; 
     
@@ -160,6 +162,7 @@
 }
 .steshhomemiddle {
   padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .middle-container {
@@ -197,16 +200,39 @@
   .middle-text.in-viewport {
     animation: fade-in 2s forwards;
 }
+.homegetcontact {
+  background-color: #f8f8f8; 
+  padding: 40px; 
+  text-align: center;
+}
 
-/* background-color: #343a40;
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 60vh; */
+.contact-banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-text h2 {
+  font-size: 24px; 
+  margin: 0;
+}
+
+.banner-button button {
+  background-color: #007bff; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px; 
+}
+
+.banner-button button:hover {
+  background-color: #0056b3; 
+}
 
 .middle-end-container {
-    background: linear-gradient(to bottom, #0b31efc9,#343a40);
+  background: linear-gradient(to bottom, #7089a3, #3c669fc9);
     text-align: center;
 
 }
@@ -223,6 +249,7 @@ height: 60vh; */
     font-size: 2rem;
     margin: 0 auto;
     padding-bottom: 50px;
+    padding-top: 65px;
 }
 
 .card-container {
@@ -521,8 +548,15 @@ height: 60vh; */
   padding-bottom: 80px;
   color: black;
   font-size: 20px;
+  justify-content: center;
+  text-align: center; 
 }
-
+.footer-firstone {
+  max-width: 800px; /* Set a maximum width for the text */
+  margin: 0 auto; /* Center the text horizontally */
+  padding: 0 30px; 
+  
+}
 .kareer-bottom-text{
   background-color: #3e68f2;
   padding-top: 150px;

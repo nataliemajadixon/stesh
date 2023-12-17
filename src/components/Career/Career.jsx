@@ -1,7 +1,51 @@
 import '../Home/Home.css'
+import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { useState } from 'react';
+import { send } from 'emailjs-com';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Popover from 'react-bootstrap/Popover';
 
 const Career = () => {
+
+  const [toSend, setToSend] = useState({
+    from_name: '',
+    last_name: '',
+    email: '',
+    phone_number: '',
+    message: '',
+    
+  });
+  const onSubmit = (e) => {
+    e.preventDefault();
+    send(
+        'service_g65arvi',
+        'template_eukgb29',
+        toSend,
+        'JRmQG7plBN3DQWusY'
+      )
+        .then((response) => {
+          console.log('SUCCESS!', response.status, response.text);
+        })
+        .catch((err) => {
+          console.log('FAILED...', err);
+        });
+    };
+   
+  const handleChange = (e) => {
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
+  };
+
+
+  const popover = (
+    <Popover id="popover-basic">
+      <Popover.Header as="h3">Your message has been sent!</Popover.Header>
+      <Popover.Body>
+         <strong>Awesome!</strong> We will be in touch!
+        
+      </Popover.Body>
+    </Popover>
+  );
     return(
         <>
        <div className="kareer-background">
@@ -24,7 +68,7 @@ const Career = () => {
         <div className='kareer-middle-text'>
                         <Row>
                             <Col xs={12} md={6} className='d-flex align-items-center justify-content-center'>
-                                <div className="footer-first">
+                                <div className="footer-firstone">
                                 <div>At Stesh, we invite you to embark on a rewarding career journey defined by innovation, collaboration, and continuous growth. As a part of our dynamic team, you'll 
                                     contribute to transformative projects, working at the forefront of cutting-edge solutions for our clients. We value the unique talents and perspectives each team member brings,
                                      fostering an environment where creativity flourishes, and ideas thrive. Your professional development is a priority at Stesh, and we're dedicated to providing the support
@@ -86,6 +130,65 @@ const Career = () => {
                             </Col>
                         </Row>
                         </div>
+                        <div className='contactemailform'>
+                        <Row>
+                            <Col xs={12} md={6} className='footer-column d-flex align-items-center justify-content-center'>
+                                <div className="footer-first">
+                                <div className='contacttouch'>Spontanansökan</div>
+                                <div>Om vi inte har några lediga tjänster som passar eller om du bara vill slänga in en spontanansökan så är du hjärtligt välkommen att registrera ditt CV.</div>
+                                </div>
+                            </Col>
+                            <Col xs={12} md={6} className='footer-column'>
+                                <div className="footer-separator">
+                                <div className='testingemail'>
+                            
+                               <form className="formcontact" onSubmit={onSubmit}>
+                      
+                               <div class="form-group col-md-6">
+                               <label for="formName">First Name</label>
+                          <input type="text" className="form-control" name='from_name' id="formName" placeholder="First Name" value={toSend.from_name}
+                          onChange={handleChange}/>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                        <label for="last">Last Name</label>
+                          <input type="text" className="form-control" name='last_name' id="last" placeholder="Last Name" value={toSend.last_name}
+                          onChange={handleChange}/>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                        <label for="emails">Email</label>
+                          <input type="text" className="form-control" name='email' id="emails" placeholder="Email" value={toSend.email}
+                          onChange={handleChange}/>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                        <label for="phone">Phone Number</label>
+                          <input type="text" className="form-control" name='phone_number' id="phone" placeholder="Phone Number" value={toSend.phone_number}
+                          onChange={handleChange}/>
+                        </div>
+
+                              
+                        <div class="form-group col-md-6 ">
+                        <label for="formMessage">Message</label>
+                        <textarea className="form-control" cols="40" rows="5" id="formMessage"  name='message' placeholder="Message"  value={toSend.message}
+                          onChange={handleChange}></textarea>
+                          
+                        </div>
+                        
+                        <OverlayTrigger trigger="click" placement="right" overlay={popover}>
+                      <button className="messagesubmit" type='submit' id='submit'>Send Message</button>
+                      </OverlayTrigger>
+                      
+                      
+                      </form>
+                      
+                                                   </div>
+                                </div>
+                            </Col>
+                        </Row>
+                        </div>
+
                         </div>
       
         </>

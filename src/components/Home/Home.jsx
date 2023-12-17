@@ -83,8 +83,20 @@ const Home = () => {
                 </div>
             </section>
 
+
+            <section className='homegetcontact'>
+  <div className='contact-banner'>
+    <div className='banner-text'>
+      <h2>Have questions?</h2>
+    </div>
+    <div className='banner-button'>
+      <button>Contact us</button>
+    </div>
+  </div>
+</section>
+
     <section className='middle-end-container'>
-        <div className='middle-end-header'>Tjänster</div>
+        <h1 className='middle-end-header'>Tjänster</h1>
         <div className={`card-container ${isCardContainerInView ? 'in-viewport' : ''} `}>
         <div class="card">
         <div class="card-img card-one"></div>

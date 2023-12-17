@@ -124,85 +124,15 @@ const Contact = () => {
                                                    </div>
                                 </div>
                             </Col>
-                            {/* <Col xs={12} md={6} className='footer-column'>
-                                <div className="footer-separator">
-                                <a href="mailto:info@nexergroup.com" className="contact-email">stesh@contact.com</a>
-                                </div>
-                            </Col> */}
                         </Row>
                         </div>
 
-                        <div className='testingemail'>
-                            
-      <h6 style={{color: 'white', paddingTop: '60px'}}>Get in Touch</h6>
-        <h1 style={{color: 'white',paddingBottom: '60px'}}>Contact Me</h1>
-
-        <h4 style={{color: 'white', paddingBotton: '20px'}}>Send a Message</h4>
-        
-         <form className="formcontact" onSubmit={onSubmit}>
-
-         <div class="form-group col-md-6">
-    
-    <input type="text" className="form-control" name='from_name' id="formName" placeholder="Name" value={toSend.from_name}
-    onChange={handleChange}/>
-  </div>
-
-        
-  <div class="form-group col-md-6 ">
-  <textarea className="form-control" cols="40" rows="5" id="formMessage"  name='message' placeholder="Message"  value={toSend.message}
-    onChange={handleChange}></textarea>
-    
-  </div>
-  
-  <OverlayTrigger trigger="click" placement="right" overlay={popover}>
-<button className="messagesubmit" type='submit' id='submit'>Send Message</button>
-</OverlayTrigger>
-
-
-</form>
-
-                             </div>
+   
                         <div>
                           
                         </div>
  
-            
-
-
-
-
-    {/* <section className='top-container contactus'>
-        <h1 className='contactheader'>Kontakt Oss</h1>
-        <p className='contacttext'>Vill du ta nästa steg i din karriär?
-Har du en yrkesambition i åtanke och skulle vilja ha en konsultation?
-Tveka inte att kontakta oss, så kommer vi att vägleda dig åt rätt håll:
-bestcolorisred@stesh.se
-| +46 (0) 123 45 67 89" </p>
-         */}
-
-
-
-
-        {/* <div form-container>
-      <form action="#" method="post">
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" maxLength="25" required /><br /><br />
-
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" maxLength="18" required /><br /><br />
-
-        <label htmlFor="phone">Phone:</label>
-        <input type="tel" id="phone" name="phone" maxLength="12" required /><br /><br />
-
-        <label htmlFor="message">Message (max 30 characters):</label><br />
-        <textarea id="message" name="message" maxLength="30" rows="4" required></textarea><br /><br />
-
-        <input type="submit" value="Submit" />
-      </form>
-    </div> */}
-    
-    {/* </section> */}
-        </>
+               </>
     )
 };
 export default Contact
