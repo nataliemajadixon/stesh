@@ -20,10 +20,10 @@ const Footer = () => {
                             </Col>
                             <Col xs={12} md={6} className='footer-column'>
                                 <div className="footer-separator">
-                                <p className='bottomheaders'>STESH</p>
+                                <p className='bottomheaders fontlogo'>STESH</p>
                                 <p><a className='bottomlinks' href='/about'>Om Oss</a></p>
-                                <p><a className='bottomlinks' href='/services'>Kontakta Oss</a></p>
-                                <p><a className='bottomlinks' href='/services'>Karriär</a></p>
+                                <p><a className='bottomlinks' href='/contact'>Kontakta Oss</a></p>
+                                <p><a className='bottomlinks' href='/career'>Karriär</a></p>
                                 </div>
                            
                      

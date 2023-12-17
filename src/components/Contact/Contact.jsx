@@ -1,8 +1,55 @@
 import '../Home/Home.css'
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
+import { useState } from 'react';
+import { send } from 'emailjs-com';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Popover from 'react-bootstrap/Popover';
+
 const Contact = () => {
+
+    const [toSend, setToSend] = useState({
+        from_name: '',
+        last_name: '',
+        email: '',
+        phone_number: '',
+        message: '',
+        
+      });
+      const onSubmit = (e) => {
+        e.preventDefault();
+        send(
+            'service_g65arvi',
+            'template_eukgb29',
+            toSend,
+            'JRmQG7plBN3DQWusY'
+          )
+            .then((response) => {
+              console.log('SUCCESS!', response.status, response.text);
+            })
+            .catch((err) => {
+              console.log('FAILED...', err);
+            });
+        };
+       
+      const handleChange = (e) => {
+        setToSend({ ...toSend, [e.target.name]: e.target.value });
+      };
+    
+    
+      const popover = (
+        <Popover id="popover-basic">
+          <Popover.Header as="h3">Your message has been sent!</Popover.Header>
+          <Popover.Body>
+             <strong>Awesome!</strong> We will be in touch!
+            
+          </Popover.Body>
+        </Popover>
+      );
+
+
     return(
+
         <>
           <section className="contact">
                 <div>
@@ -31,12 +78,90 @@ const Contact = () => {
                             </Col>
                             <Col xs={12} md={6} className='footer-column'>
                                 <div className="footer-separator">
-                                <a href="mailto:info@nexergroup.com" className="contact-email">stesh@contact.com</a>
+                                <div className='testingemail'>
+                            
+                               <form className="formcontact" onSubmit={onSubmit}>
+                      
+                               <div class="form-group col-md-6">
+                               <label for="formName">First Name</label>
+                          <input type="text" className="form-control" name='from_name' id="formName" placeholder="First Name" value={toSend.from_name}
+                          onChange={handleChange}/>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                        <label for="last">Last Name</label>
+                          <input type="text" className="form-control" name='last_name' id="last" placeholder="Last Name" value={toSend.last_name}
+                          onChange={handleChange}/>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                        <label for="emails">Email</label>
+                          <input type="text" className="form-control" name='email' id="emails" placeholder="Email" value={toSend.email}
+                          onChange={handleChange}/>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                        <label for="phone">Phone Number</label>
+                          <input type="text" className="form-control" name='phone_number' id="phone" placeholder="Phone Number" value={toSend.phone_number}
+                          onChange={handleChange}/>
+                        </div>
+
+                              
+                        <div class="form-group col-md-6 ">
+                        <label for="formMessage">Message</label>
+                        <textarea className="form-control" cols="40" rows="5" id="formMessage"  name='message' placeholder="Message"  value={toSend.message}
+                          onChange={handleChange}></textarea>
+                          
+                        </div>
+                        
+                        <OverlayTrigger trigger="click" placement="right" overlay={popover}>
+                      <button className="messagesubmit" type='submit' id='submit'>Send Message</button>
+                      </OverlayTrigger>
+                      
+                      
+                      </form>
+                      
+                                                   </div>
                                 </div>
                             </Col>
+                            {/* <Col xs={12} md={6} className='footer-column'>
+                                <div className="footer-separator">
+                                <a href="mailto:info@nexergroup.com" className="contact-email">stesh@contact.com</a>
+                                </div>
+                            </Col> */}
                         </Row>
                         </div>
 
+                        <div className='testingemail'>
+                            
+      <h6 style={{color: 'white', paddingTop: '60px'}}>Get in Touch</h6>
+        <h1 style={{color: 'white',paddingBottom: '60px'}}>Contact Me</h1>
+
+        <h4 style={{color: 'white', paddingBotton: '20px'}}>Send a Message</h4>
+        
+         <form className="formcontact" onSubmit={onSubmit}>
+
+         <div class="form-group col-md-6">
+    
+    <input type="text" className="form-control" name='from_name' id="formName" placeholder="Name" value={toSend.from_name}
+    onChange={handleChange}/>
+  </div>
+
+        
+  <div class="form-group col-md-6 ">
+  <textarea className="form-control" cols="40" rows="5" id="formMessage"  name='message' placeholder="Message"  value={toSend.message}
+    onChange={handleChange}></textarea>
+    
+  </div>
+  
+  <OverlayTrigger trigger="click" placement="right" overlay={popover}>
+<button className="messagesubmit" type='submit' id='submit'>Send Message</button>
+</OverlayTrigger>
+
+
+</form>
+
+                             </div>
                         <div>
                           
                         </div>
