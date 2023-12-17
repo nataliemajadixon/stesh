@@ -45,10 +45,14 @@ const Home = () => {
     return(
         <>
             <section className="top-container">
+         
                 <div className="home-one">
+                     <div className="background-imagemain">
+                    <img src={require('../../assets/clouds.jpeg')} alt='vrheadset' />
+                </div>
                     <div className='toptext'>
                         <h1>
-                        Välkommen till <span style={{color: "#d83f2e"}}>Stesh</span>
+                        Välkommen till <span className="steshmain">STESH</span>
                         </h1>
                         {'\n'} 
                         <div className="smalltop">
@@ -68,11 +72,13 @@ const Home = () => {
 
             <section className= "middle-container">
                <div className={`middle-text ${isMiddleTextInView ? 'in-viewport' : ''} `}>
+                <h1 className='steshhomemiddle'>Vi är <span className="steshnormal">STESH</span></h1>
                 <p>
-                Söker du expertvägledning för att ta ditt företag till nästa nivå? Här är Stesh, din pålitliga partner inom företagsrådgivning. Vi specialiserar oss på att erbjuda skräddarsydda lösningar för att hjälpa ditt företag att blomstra, och stödja företag i alla storlekar att övervinna utmaningar, optimera operationer och uppnå hållbar tillväxt. Låt oss tillsammans låsa upp ditt företags fulla potential och uppnå enastående resultat. Kontakta Stesh idag och ta de första stegen mot en ljusare framtid.
+                Söker du expertvägledning för att höja ditt företag? Möt Stesh, din pålitliga partner inom konsulttjänster. Med specialiserade lösningar stödjer vi företag i alla storlekar att övervinna utmaningar
+                 och uppnå hållbar tillväxt. Kontakta Stesh idag för enastående resultat och en ljusare framtid. 
+                 <br></br>
+                Vårt erfarna team värdesätter din unika synvinkel och erbjuder strategisk vägledning samt praktiska lösningar.
 
-                <br></br>
-                På Stesh värderar vi din åsikt och förstår att varje individ är unik. Vårt team av erfarna konsulter erbjuder strategisk vägledning, innovativa idéer och praktiska lösningar.
                 </p>
                 </div>
             </section>
