@@ -84,26 +84,14 @@ const Home = () => {
             </section>
 
 
-            <section className='homegetcontact'>
-  <div className='contact-banner'>
-    <div className='banner-text'>
-      <h2>Have questions?</h2>
-    </div>
-    <div className='banner-button'>
-      <button>Contact us</button>
-    </div>
-  </div>
-</section>
-
 <section className="custom-section">
   <div className="container">
     <div className="row">
       <div className="col-md-6 d-flex align-items-center custompadding">
         <div className="text-column">
-          <h2>DIGITAL TRANSFORMATION</h2>
+          <h2>DIGITAL SUSTAINABILITY</h2>
           <p>
-            Together, we're building the digital infrastructure of the future. We are committed to building the digital infrastructure of the future, offering solutions that enable sustainable development of society and the economy.
-          </p>
+          We're shaping tomorrow's digital landscape, constructing a future-ready infrastructure with a commitment to sustainable progress in society and the economy. Our dedication centers on delivering solutions for lasting development.          </p>
         </div>
       </div>
       <div className="col-md-6 custompadding">
@@ -116,8 +104,13 @@ const Home = () => {
         <div className="text-column customtest">
           <h2>EQUALITY</h2>
           <p>
-            Q by Consid – with equality in focus. Q by Consid is a platform dedicated to promoting gender equality in the tech industry. It provides a community for individuals to come together and work towards a more equitable future.
-          </p>
+          With a focus on equality, our initiative is dedicated to fostering inclusivity across the industries. We provide a platform for individuals to come together, creating a community that collaborates towards a more equitable future.
+
+
+
+
+
+</p>
         </div>
       </div>
       <div className="col-md-6 order-md-1 custompadding">
@@ -129,10 +122,9 @@ const Home = () => {
     <div className="row">
       <div className="col-md-6 d-flex align-items-center custompadding">
         <div className="text-column">
-          <h2>TRAINEE PROGRAMME</h2>
+          <h2>FREE CONSULTATION</h2>
           <p>
-            Consid Next Level Academy. Are you a recent graduate, or do you have a few years of industry experience and want to join Sweden's best trainee program? The application period for the spring semester 2024 will open in September.
-          </p>
+          Are you seeking guidance or advice? Our free consultation service is designed for individuals looking to explore opportunities, whether you're a recent graduate or have industry experience. Schedule your free consultation today to unlock a pathway to success.         </p>
         </div>
       </div>
       <div className="col-md-6 custompadding">
@@ -142,7 +134,22 @@ const Home = () => {
   </div>
 </section>
 
-    <section className='middle-end-container'>
+<section className='homegetcontact'>
+<div className={`${isCardContainerInView ? 'in-viewport' : ''} `}>
+  <div className='contact-banner'>
+    <div className='banner-text'>
+      <h2>Have questions?</h2>
+    </div>
+    <div className='banner-button'>
+      <button>Contact us</button>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+    {/* <section className='middle-end-container'>
         <h1 className='middle-end-header'>Tjänster</h1>
         <div className={`card-container ${isCardContainerInView ? 'in-viewport' : ''} `}>
         <div class="card">
@@ -169,7 +176,7 @@ const Home = () => {
         </p>
       </div>
       </div>
-    </section>
+    </section> */}
 
     {/* <section className='top-container contactus'>
         <h1 className='contactheader'>Kontakt Oss</h1>
