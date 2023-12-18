@@ -48,7 +48,7 @@ const Home = () => {
          
                 <div className="home-one">
                      <div className="background-imagemain">
-                    <img src={require('../../assets/clouds.jpeg')} alt='vrheadset' />
+                    <img src={require('../../assets/clouds.jpg')} alt='vrheadset' />
                 </div>
                     <div className='toptext'>
                         <h1>
@@ -95,7 +95,7 @@ const Home = () => {
         </div>
       </div>
       <div className="col-md-6 custompadding">
-        <img src={require('../../assets/sustaiblity.jpeg')} alt="Digital Transformation" className="img-fluid" />
+        <img src={require('../../assets/sustaiblity.jpg')} alt="Digital Transformation" className="img-fluid" />
       </div>
     </div>
 
@@ -106,15 +106,11 @@ const Home = () => {
           <p>
           With a focus on equality, our initiative is dedicated to fostering inclusivity across the industries. We provide a platform for individuals to come together, creating a community that collaborates towards a more equitable future.
 
-
-
-
-
 </p>
         </div>
       </div>
       <div className="col-md-6 order-md-1 custompadding">
-        <img src={require('../../assets/diversity.jpeg')} alt="Equality" className="img-fluid"/>
+        <img src={require('../../assets/diversity.jpg')} alt="Equality" className="img-fluid"/>
       </div>
      
     </div>
