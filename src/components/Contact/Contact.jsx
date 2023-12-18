@@ -84,42 +84,42 @@ const Contact = () => {
                             
                                <form className="formcontact" onSubmit={onSubmit}>
                       
-                               <div class="form-group col-md-6">
-                               <label for="formName">First Name</label>
+                               <div class="form-group col-md-6 firstnamepad">
+                               <label for="formName" className='formlabel'>First Name</label>
                           <input type="text" className="form-control" name='from_name' id="formName" placeholder="First Name" value={toSend.from_name}
                           onChange={handleChange}/>
                         </div>
 
                         <div class="form-group col-md-6">
-                        <label for="last">Last Name</label>
+                        <label for="last" className='formlabel'>Last Name</label>
                           <input type="text" className="form-control" name='last_name' id="last" placeholder="Last Name" value={toSend.last_name}
                           onChange={handleChange}/>
                         </div>
 
                         <div class="form-group col-md-6">
-                        <label for="emails">Email</label>
+                        <label for="emails" className='formlabel'>Email</label>
                           <input type="text" className="form-control" name='email' id="emails" placeholder="Email" value={toSend.email}
                           onChange={handleChange}/>
                         </div>
 
                         <div class="form-group col-md-6">
-                        <label for="phone">Phone Number</label>
+                        <label for="phone" className='formlabel'>Phone Number</label>
                           <input type="text" className="form-control" name='phone_number' id="phone" placeholder="Phone Number" value={toSend.phone_number}
                           onChange={handleChange}/>
                         </div>
 
                               
                         <div class="form-group col-md-6 ">
-                        <label for="formMessage">Message</label>
+                        <label for="formMessage" className='formlabel'>Message</label>
                         <textarea className="form-control" cols="40" rows="5" id="formMessage"  name='message' placeholder="Message"  value={toSend.message}
                           onChange={handleChange}></textarea>
                           
                         </div>
-                        
+                        <div className="form-group col-md-6">
                         <OverlayTrigger trigger="click" placement="right" overlay={popover}>
                       <button className="messagesubmit" type='submit' id='submit'>Send Message</button>
                       </OverlayTrigger>
-                      
+                      </div>
                       
                       </form>
                       

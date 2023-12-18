@@ -63,27 +63,24 @@ const Career = () => {
         </div>
       </div>
 
-        <div>
 
         <div className='kareer-middle-text'>
-                        <Row>
-                            <Col xs={12} md={6} className='d-flex align-items-center justify-content-center'>
-                                <div className="footer-firstone">
-                                <div>At Stesh, we invite you to embark on a rewarding career journey defined by innovation, collaboration, and continuous growth. As a part of our dynamic team, you'll 
-                                    contribute to transformative projects, working at the forefront of cutting-edge solutions for our clients. We value the unique talents and perspectives each team member brings,
-                                     fostering an environment where creativity flourishes, and ideas thrive. Your professional development is a priority at Stesh, and we're dedicated to providing the support
-                                     and opportunities you need to excel. Join us at Stesh, where every day is an opportunity to make a lasting impact in the world of consulting.
-                                     At Stesh, we believe in the power of exceptional talent to drive success. As a dynamic and innovative consulting firm, we are committed to building a team of dedicated 
-                                     professionals who share our passion for solving complex
-                                      challenges and making a meaningful impact. Want to join us? Send us an email!</div>
-                                </div>
-                            </Col>
-                            <Col xs={12} md={6} >
-                                
-                            </Col>
-                        </Row>
-                        </div>
-                        <section className='middle-end-container services-container'>
+            <Row>
+                <Col xs={12} md={6} className='d-flex align-items-center justify-content-center'>
+                    <div className="footer-firstone">
+                         <div>Join Stesh for a dynamic career journey, contributing to transformative projects at the forefront of innovation. We value diverse talents, fostering a creative environment. 
+                              Your professional growth is our priority, providing the support to excel. Join us for impactful consulting work. 
+                              Send us a message to be part of our dedicated team, solving complex challenges with passion!</div>
+                          </div>
+                  </Col>
+                  <Col xs={12} md={6}  className='d-flex align-items-center justify-content-center kareer-main-head'>
+                     <div>
+                         <h1 className='kareer-stesh-h1 text-center text-md-start'>Join the Stesh family</h1>
+                      </div>
+                </Col>
+            </Row>
+                        </div> 
+                        {/* <section className='middle-end-container services-container'>
       <div className='career-toptext'>
         </div>
         <div className="card-container">
@@ -111,7 +108,7 @@ const Career = () => {
         </p>
       </div>
       </div>
-    </section>
+    </section> */}
 
                         <div className='kareer-bottom-text'>
                         <Row>
@@ -130,7 +127,7 @@ const Career = () => {
                             </Col>
                         </Row>
                         </div>
-                        <div className='contactemailform'>
+                        {/* <div className='contactemailform'>
                         <Row>
                             <Col xs={12} md={6} className='footer-column d-flex align-items-center justify-content-center'>
                                 <div className="footer-first">
@@ -187,9 +184,9 @@ const Career = () => {
                                 </div>
                             </Col>
                         </Row>
-                        </div>
+                        </div> */}
 
-                        </div>
+                    
       
         </>
     )
