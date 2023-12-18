@@ -231,6 +231,14 @@
   background-color: #0056b3; 
 }
 
+.custompadding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.customtest {
+  padding-left: 10px;
+}
+
 .middle-end-container {
   background: linear-gradient(to bottom, #7089a3, #3c669fc9);
     text-align: center;

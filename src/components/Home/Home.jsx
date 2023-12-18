@@ -95,6 +95,53 @@ const Home = () => {
   </div>
 </section>
 
+<section className="custom-section">
+  <div className="container">
+    <div className="row">
+      <div className="col-md-6 d-flex align-items-center custompadding">
+        <div className="text-column">
+          <h2>DIGITAL TRANSFORMATION</h2>
+          <p>
+            Together, we're building the digital infrastructure of the future. We are committed to building the digital infrastructure of the future, offering solutions that enable sustainable development of society and the economy.
+          </p>
+        </div>
+      </div>
+      <div className="col-md-6 custompadding">
+        <img src={require('../../assets/sustaiblity.jpeg')} alt="Digital Transformation" className="img-fluid" />
+      </div>
+    </div>
+
+    <div className="row">
+    <div className="col-md-6 d-flex align-items-center order-md-2 custompadding">
+        <div className="text-column customtest">
+          <h2>EQUALITY</h2>
+          <p>
+            Q by Consid – with equality in focus. Q by Consid is a platform dedicated to promoting gender equality in the tech industry. It provides a community for individuals to come together and work towards a more equitable future.
+          </p>
+        </div>
+      </div>
+      <div className="col-md-6 order-md-1 custompadding">
+        <img src={require('../../assets/diversity.jpeg')} alt="Equality" className="img-fluid"/>
+      </div>
+     
+    </div>
+
+    <div className="row">
+      <div className="col-md-6 d-flex align-items-center custompadding">
+        <div className="text-column">
+          <h2>TRAINEE PROGRAMME</h2>
+          <p>
+            Consid Next Level Academy. Are you a recent graduate, or do you have a few years of industry experience and want to join Sweden's best trainee program? The application period for the spring semester 2024 will open in September.
+          </p>
+        </div>
+      </div>
+      <div className="col-md-6 custompadding">
+        <img src={require('../../assets/jobinterview.jpg')} alt="Trainee Programme" className="img-fluid"/>
+      </div>
+    </div>
+  </div>
+</section>
+
     <section className='middle-end-container'>
         <h1 className='middle-end-header'>Tjänster</h1>
         <div className={`card-container ${isCardContainerInView ? 'in-viewport' : ''} `}>

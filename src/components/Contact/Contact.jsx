@@ -68,6 +68,8 @@ const Contact = () => {
                     </Container>
                 </div>
                 </section>
+
+                
                     <div className='contactemailform'>
                         <Row>
                             <Col xs={12} md={6} className='footer-column d-flex align-items-center justify-content-center'>
