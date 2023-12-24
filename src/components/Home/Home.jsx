@@ -93,7 +93,7 @@ const Home = () => {
                 <h1 className='steshhomemiddle'>Vi är <span className="steshnormal">STESH</span></h1>
                 <p>
                 
-Stesh är ett nystartat teknikkonsultföretag i ett utvecklingsskede med kontor i Skövde. Våra huvudområden som vi verkar inom är produktion/automation IT samt produktutveckling/konstruktion. Inom dessa områden har vi flertalet spännande uppdrag för både dig som junior och senior ingenjör som matchas efter din profil och dina intressen. Med våra samarbetspartners har vi tillgång till ett stort utbud av kunder, tillsammans hittar vi rätt uppdrag för just dig.
+Stesh är ett nystartat teknikkonsultföretag i ett utvecklingsskede med kontor i Skövde. Våra huvudområden som vi verkar inom är produktion, IT samt produktutveckling. Inom dessa områden har vi flertalet spännande uppdrag för både dig som junior och senior ingenjör som matchas efter din profil och dina intressen. Med våra samarbetspartners har vi tillgång till ett stort utbud av kunder, tillsammans hittar vi rätt uppdrag för just dig.
                  <br></br>
 
                 </p>
