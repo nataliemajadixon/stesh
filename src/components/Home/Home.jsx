@@ -74,7 +74,7 @@ const Home = () => {
                         </h1>
                         {'\n'} 
                         <div className="smalltop">
-                        Vi erbjuder expertkonsulttjänster för att hjälpa dig att uppnå dina mål. Vi kommer att följa med dig för att nå din fulla potential.
+                        Tillsammans formar vi morgondagen
                         </div>
                         <div className='smalltop'>
                         Kontakta oss för att komma igång!
