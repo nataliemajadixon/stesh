@@ -77,7 +77,7 @@ const Home = () => {
                         Tillsammans formar vi morgondagen
                         </div>
                         <div className='smalltop'>
-                        Kontakta oss för att komma igång!
+                        
                         </div>
                         
                     </div>
