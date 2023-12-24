@@ -92,10 +92,9 @@ const Home = () => {
                <div className={`middle-text ${isMiddleTextInView ? 'in-viewport' : ''} `}>
                 <h1 className='steshhomemiddle'>Vi är <span className="steshnormal">STESH</span></h1>
                 <p>
-                Söker du expertvägledning för att höja ditt företag? Möt Stesh, din pålitliga partner inom konsulttjänster. Med specialiserade lösningar stödjer vi företag i alla storlekar att övervinna utmaningar
-                 och uppnå hållbar tillväxt. Kontakta Stesh idag för enastående resultat och en ljusare framtid. 
+                
+Stesh är ett nystartat teknikkonsultföretag i ett utvecklingsskede med kontor i Skövde. Våra huvudområden som vi verkar inom är produktion/automation IT samt produktutveckling/konstruktion. Inom dessa områden har vi flertalet spännande uppdrag för både dig som junior och senior ingenjör som matchas efter din profil och dina intressen. Med våra samarbetspartners har vi tillgång till ett stort utbud av kunder, tillsammans hittar vi rätt uppdrag för just dig.
                  <br></br>
-                Vårt erfarna team värdesätter din unika synvinkel och erbjuder strategisk vägledning samt praktiska lösningar.
 
                 </p>
                 </div>
