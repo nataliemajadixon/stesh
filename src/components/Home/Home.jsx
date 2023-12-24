@@ -107,9 +107,10 @@ const Home = () => {
     <div className="row">
       <div className="col-md-6 d-flex align-items-center custompadding">
         <div className="text-column">
-          <h2>DIGITAL SUSTAINABILITY</h2>
+          <h2>DIGITAL HÅLLBARHET</h2>
           <p>
-          We're shaping tomorrow's digital landscape, constructing a future-ready infrastructure with a commitment to sustainable progress in society and the economy. Our dedication centers on delivering solutions for lasting development.          </p>
+          
+Vi formar morgondagens digitala landskap och bygger en framtidsklar infrastruktur med ett engagemang för hållbara framsteg i samhället och ekonomin. Vårt engagemang fokuserar på att leverera lösningar för varaktig utveckling.          </p>
         </div>
       </div>
       <div className="col-md-6 custompadding">
@@ -120,10 +121,9 @@ const Home = () => {
     <div className="row">
     <div className="col-md-6 d-flex align-items-center order-md-2 custompadding">
         <div className="text-column customtest">
-          <h2>EQUALITY</h2>
+          <h2>MÅNGFALD</h2>
           <p>
-          With a focus on equality, our initiative is dedicated to fostering inclusivity across the industries. We provide a platform for individuals to come together, creating a community that collaborates towards a more equitable future.
-
+         Med fokus på jämställdhet är vårt initiativ dedikerat till att främja inkludering i alla branscher. Vi förser en plattform för individer att mötas och skapa en gemenskap som samarbetar för en mer rättvis framtid.
 </p>
         </div>
       </div>
