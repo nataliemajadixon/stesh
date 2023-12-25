@@ -151,10 +151,10 @@ Vi formar morgondagens digitala landskap och bygger en framtidsklar infrastruktu
 <div className={`${isQuoteInView? 'in-viewport' : ''} `}>
   <div className='contact-banner'>
     <div className='banner-text'>
-      <h2>Have questions?</h2>
+      <h2>Vill du veta mer?</h2>
     </div>
     <div className='banner-button'>
-      <button>Contact us</button>
+      <button>Kontakta oss</button>
     </div>
   </div>
   </div>
@@ -163,7 +163,7 @@ Vi formar morgondagens digitala landskap och bygger en framtidsklar infrastruktu
 <section>
 <div className="quote-container">
           <p className="quote">
-            "At STESH, we empower businesses with strategic insights, foster innovation, and drive transformative change. Redefining success through our commitment to collaborative consulting excellence."
+
           </p>
           <p className="quote-author">- Steven Shamoun</p>
         </div>
