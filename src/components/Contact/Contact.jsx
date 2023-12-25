@@ -57,8 +57,8 @@ const Contact = () => {
                         <Row>
                             <Col xs={12} md={6} className='one d-flex align-items-center justify-content-center'>
                                 <div className="two">
-                                <p className='three'>KONTAKT OSS</p>
-                                <div className='contacttoptext'>Get in touch with us</div>
+                                <p className='three'>KONTAKTA OSS</p>
+                                <div className='contacttoptext'>Vill du komma i kontakt med oss?</div>
                                 </div>
                             </Col>
                             <Col xs={12} md={6} className='four'>
