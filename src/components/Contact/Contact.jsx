@@ -74,8 +74,8 @@ const Contact = () => {
                         <Row>
                             <Col xs={12} md={6} className='footer-column d-flex align-items-center justify-content-center'>
                                 <div className="footer-first">
-                                <div className='contacttouch'>Want to get in touch?</div>
-                                <div>Send us a quick email and we will get back to you as soon as possible</div>
+                                <div className='contacttouch'>Kontakta oss</div>
+                                <div>Skicka ett meddelande så återkommer vi så snart som möjligt.</div>
                                 </div>
                             </Col>
                             <Col xs={12} md={6} className='footer-column'>
@@ -85,32 +85,32 @@ const Contact = () => {
                                <form className="formcontact" onSubmit={onSubmit}>
                       
                                <div class="form-group col-md-6 firstnamepad">
-                               <label for="formName" className='formlabel'>First Name</label>
+                               <label for="formName" className='formlabel'>Förnamn</label>
                           <input type="text" className="form-control" name='from_name' id="formName" placeholder="First Name" value={toSend.from_name}
                           onChange={handleChange}/>
                         </div>
 
                         <div class="form-group col-md-6">
-                        <label for="last" className='formlabel'>Last Name</label>
+                        <label for="last" className='formlabel'>Efternamn</label>
                           <input type="text" className="form-control" name='last_name' id="last" placeholder="Last Name" value={toSend.last_name}
                           onChange={handleChange}/>
                         </div>
 
                         <div class="form-group col-md-6">
-                        <label for="emails" className='formlabel'>Email</label>
+                        <label for="emails" className='formlabel'>E-post</label>
                           <input type="text" className="form-control" name='email' id="emails" placeholder="Email" value={toSend.email}
                           onChange={handleChange}/>
                         </div>
 
                         <div class="form-group col-md-6">
-                        <label for="phone" className='formlabel'>Phone Number</label>
+                        <label for="phone" className='formlabel'>Telefonnummer</label>
                           <input type="text" className="form-control" name='phone_number' id="phone" placeholder="Phone Number" value={toSend.phone_number}
                           onChange={handleChange}/>
                         </div>
 
                               
                         <div class="form-group col-md-6 ">
-                        <label for="formMessage" className='formlabel'>Message</label>
+                        <label for="formMessage" className='formlabel'>Meddelande</label>
                         <textarea className="form-control" cols="40" rows="5" id="formMessage"  name='message' placeholder="Message"  value={toSend.message}
                           onChange={handleChange}></textarea>
                           
