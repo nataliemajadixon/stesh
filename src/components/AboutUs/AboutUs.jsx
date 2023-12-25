@@ -17,14 +17,12 @@ const About = () => {
 
             <div className="careerentireflex">
             <div className="careerentirecon">
-            <div className="careerentireheader"> STESH in its entirety</div>
-            <p className='careerentiretext'>We at Stesh have a range of different experiences and knowledge.
-             At Stesh, we are passionate about talent. We understand that the success of every organization has deep roots in the people it employs. 
-             As a leading company in talent consulting, we take pride in our commitment to help businesses identify, attract, and retain the best talent in the industry.
+            <div className="careerentireheader"> Ett unikt arbetsklimat</div>
+            <p className='careerentiretext'>På STESH tror vi på att skapa ett arbetsklimat där kreativitet och samarbete blomstrar. Vi sätter en ära i att odla en miljö där varje medarbetare kan blomstra och bidra till vår gemensamma framgång. Med flexibla arbetsmöjligheter och en balans mellan arbete och fritid strävar vi efter att skapa en plats där du kan trivas och utvecklas.
              </p>
-             <div className="careerentireheader"> Our Mission</div>
+             <div className="careerentireheader"> Vår passion för utveckling</div>
              <div className="careerentiretext">
-            Our mission is clear: to empower your organization with the human capacity it needs to thrive. We believe that each individual is unique and has something valuable to offer. Our mission is to connect these exceptional individuals with forward-thinking companies to create the perfect synergy.
+            Vi på STESH tror på att driva innovation och ständig utveckling. Vår passion för att lösa komplexa utmaningar och forma framtiden genomsyrar allt vi gör. Här får du möjligheten att arbeta med en mångfald av projekt och utmana dig själv för att växa både professionellt och personligt.
             </div>
              </div>
                 </div>
