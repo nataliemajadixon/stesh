@@ -64,22 +64,8 @@ const Career = () => {
       </div>
 
 
-        <div className='kareer-middle-text'>
-            <Row>
-                <Col xs={12} md={6} className='d-flex align-items-center justify-content-center'>
-                    <div className="footer-firstone">
-                         <div>Join Stesh for a dynamic career journey, contributing to transformative projects at the forefront of innovation. We value diverse talents, fostering a creative environment. 
-                              Your professional growth is our priority, providing the support to excel. Join us for impactful consulting work. 
-                              Send us a message to be part of our dedicated team, solving complex challenges with passion!</div>
-                          </div>
-                  </Col>
-                  <Col xs={12} md={6}  className='d-flex align-items-center justify-content-center kareer-main-head'>
-                     <div>
-                         <h1 className='kareer-stesh-h1 text-center text-md-start'>Join the Stesh family</h1>
-                      </div>
-                </Col>
-            </Row>
-                        </div> 
+    
+                        
                         {/* <section className='middle-end-container services-container'>
       <div className='career-toptext'>
         </div>
