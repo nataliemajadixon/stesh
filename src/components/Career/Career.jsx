@@ -108,7 +108,7 @@ const Career = () => {
                             </Col>
                             <Col xs={12} md={6} className='footer-column'>
                                 <div className="footer-separator">
-                                <a href="mailto:info@nexergroup.com" className="contact-email">Skicka din ansökan till <b>stesh@contact.com</b></a>
+                                <a href="mailto:info@stesh.se" className="contact-email">Skicka din ansökan till <b>info@stesh.se</b></a>
                                 </div>
                             </Col>
                         </Row>
