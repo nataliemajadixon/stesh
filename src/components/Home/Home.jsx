@@ -160,14 +160,6 @@ Vi formar morgondagens digitala landskap och bygger en framtidsklar infrastruktu
   </div>
 </section>
 
-<section>
-<div className="quote-container">
-          <p className="quote">
-
-          </p>
-          <p className="quote-author">- Steven Shamoun</p>
-        </div>
-</section>
 
         </>
     )
