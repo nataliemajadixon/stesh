@@ -10,9 +10,9 @@ const Footer = () => {
                         <Row>
                             <Col xs={12} md={6} className='footer-column'>
                                 <div className="footer-first">
-                                <p className='bottomheaders'>KONTAKT OSS</p>
+                                <p className='bottomheaders'>KONTAKTA OSS</p>
                                 <button className="footer-button">
-                                    <a href="mailto:info@nexergroup.com" className="footer-link">stesh@contact.com</a>
+                                    <a href="mailto:info@stesh.se" className="footer-link">info@stesh.se</a>
                                 </button>
                                 </div>
                                 {/* <p><a className='bottomlinks' href='/contact'>E-post</a></p>
