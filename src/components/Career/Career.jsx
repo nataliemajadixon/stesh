@@ -57,7 +57,7 @@ const Career = () => {
               <div className="kareerustext">
                 Känns det här som en arbetsplats där du skulle bidra med något nytt, trivas och utvecklas? I så fall, ansök till en av våra lediga tjänster!
               </div>
-              <a href="#spontanansokan" className="show-vacancies-btn">Show Job Vacancies</a>
+              <a href="#spontanansokan" className="show-vacancies-btn">Spontan ansök</a>
             </div>
           </div>
         </div>
