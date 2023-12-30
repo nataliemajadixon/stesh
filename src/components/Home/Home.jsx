@@ -69,22 +69,17 @@ const Home = () => {
                     <img src={require('../../assets/tech.jpg')} alt='vrheadset' />
                 </div>
                     <div className='toptext'>
-                        <h1>
-                        Välkommen till &nbsp;&nbsp; <span className="steshmain">STESH</span>
-                        </h1>
-                        {'\n'} 
-                        <div className="smalltop">
+                        <h1 style={{fontSize: '3em'}}>
                         Tillsammans formar vi morgondagen
-                        </div>
-                        <div className='smalltop'>
+                                                </h1>
+                        {'\n'} 
                         
-                        </div>
                         
                     </div>
-                        <div className="arrow-container">
+                        {/* <div className="arrow-container">
                         <div className="arrow-stick"></div>
                         <div className="arrow-down"></div>
-                        </div>
+                        </div> */}
                 </div>
             </section>
 
