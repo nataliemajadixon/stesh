@@ -130,7 +130,7 @@ Vi formar morgondagens digitala landskap och bygger en framtidsklar infrastruktu
     <div className="row">
       <div className="col-md-6 d-flex align-items-center custompadding">
         <div className="text-column">
-          <h2>Konstnadsfri konsultation</h2>
+          <h2>KOSTNADSFRI KONSULTATION</h2>
           <p>
           
 Söker du vägledning eller råd? Vår kostnadsfria konsulttjänst är avsedd till mindre företag, som vill veta mer om hur vi kan bidra till utvecklingen av dess verksamhet.         </p>
